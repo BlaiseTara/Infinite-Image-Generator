@@ -1,0 +1,7 @@
+# ---- TODO ----
+
+- Add a setting that stops rendering the pixels until something is actually found, then show them again. I found this to triple the FPS, resulting in faster searching of clusters.
+
+- Make some new Algorithms for detecting images.
+  The current algorithm works fine for 2-3 colors, but images arent just blobs of 1 color, they can consist of multiple colors.
+  Make a setting to switch between different algorithms for searching for different cluster patterns.
