@@ -34,7 +34,7 @@ This is the Minimum Cluster size that it searches for in pixels, in this case it
 ```DensityThreshold = 0.7```
 
 This is how dense a cluster can be before it is found,
-Values closer to 0 will result in finding clusters that are longer and spread out
+Values closer to 0 will result in finding clusters that are longer and spread out,
 Values closer to 1 will result in finding cluster that are smaller and more dense
 
 
