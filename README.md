@@ -10,7 +10,7 @@ You will need Python and Pygame installed,
 along with Numpy and SciPy.
 
 Basically just run the python file, and watch it generate.
-If it finds anything, it will pause until you press any key.
+If it finds anything, it will pause until you press the space bar.
 
 # Settings
 By default I have it setup to generate a Black and White, 16x16 image.
