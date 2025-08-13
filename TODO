@@ -5,3 +5,5 @@
 - Make some new Algorithms for detecting images.
   The current algorithm works fine for 2-3 colors, but images arent just blobs of 1 color, they can consist of multiple colors.
   Make a setting to switch between different algorithms for searching for different cluster patterns.
+
+- Maybe make a seperate GUI (tkinter or something) for controlling the settings during runtime
