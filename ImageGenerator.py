@@ -88,7 +88,7 @@ while Running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             Running = False
-        elif event.type == pygame.KEYDOWN and Paused:
+        elif event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE and Paused:
             print("Resuming...")
             Paused = False
             HighlightMask = None
@@ -145,3 +145,4 @@ while Running:
         pygame.display.flip()
 
 pygame.quit()
+
